@@ -1,0 +1,216 @@
+.home {
+    /* border: 1px solid #fff; */
+    /* background: var(--background); */
+    
+    /* opacity: 0.9; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+    /* margin-top: 10vh; */
+    
+}
+
+.home_main {
+    
+    background-image: url('../../assets/img/Oslo\ city\ skyline.jpg');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+}
+.home_main-title {
+    width: 75%;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 28px;
+
+    text-shadow: 2px 2px 2px #111;
+}
+
+.home_main-subtitle {
+    color: #fff;
+    width: 75%;
+    text-align: center;
+    margin-top: 2rem;
+
+    text-shadow: 2px 2px 2px #111;
+}
+
+.home_main-btn__container {
+    margin-top: 4rem;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* border: 1px solid #fff; */
+}
+
+.home_main-btn {
+    /* border: 2px solid #fff; */
+    color: #ccc;
+    border-radius: 100px;
+    width: 20%;
+    padding: 8px 24px;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* background:linear-gradient(90deg, rgba(0, 38, 99, 1) 10%, rgba(255, 255, 255, 1) 100%); */
+    /* box-shadow: 2px 2px 2px #333; */
+
+    background: var(--background);
+    opacity: 0.9;
+}
+
+.home_main-btn:hover {
+    color: #fff;
+    cursor: pointer;
+    opacity: 1;
+    animation-duration: 0.5s;
+    animation-name: fadein-btn;
+}
+
+.home_main-btn text {
+    
+    font-weight: 700;
+    font-size: 12px;
+
+
+}
+
+.home_sub {
+    /* min-height: 100vh; */
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background: #fff;
+    z-index: 2;
+    /* height: 100vh; */
+
+    /* border: 1px solid #fff; */
+
+    box-shadow: 0 0 12px var(--background);
+}
+
+.home_sub-section {
+    /* border: 1px solid #333; */
+    width: 75%;
+    min-height: 250px;
+
+    margin-top: 4rem;
+
+    background: hsl(217,100%,98%);
+    /* border-radius: 4px; */
+}
+
+.home_sub-section:hover {
+    cursor: pointer;
+    background: hsl(217,100%,92%);
+
+    animation-duration: 1s;
+    animation-name: fadein-color;
+}
+
+@keyframes fadein-color {
+    from {
+        background: hsl(217,100%,98%);
+    }
+  
+    to {
+        background: hsl(217,100%,92%);
+    }
+  }
+
+.home_sub-section__text-section {
+    /* height: 150px; */
+
+    display: flex;
+    flex-direction: column;
+
+    color: var(--background);
+    
+}
+
+.home_sub-section__text-section h1 {
+    margin: 1rem
+}
+
+.home_sub-section__text-section p {
+    margin: 0 1rem 1rem 1rem;
+    font-weight: 500;
+}
+
+.home_sub-section__btn {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* height: 100px; */
+
+    /* border: 1px solid #333; */
+    padding-right: 2rem;
+    
+}
+
+.home_sub-section__btn text {
+    /* background: var(--background); */
+    color: var(--background);
+    opacity: 0.9;
+    margin-right: 4rem;
+
+    padding: 10px 20px ;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* .home_sub-section__btn text:hover {
+    
+    color: #fff;
+    cursor: pointer;
+    animation-duration: 0.5s;
+    animation-name: fadein;
+} */
+
+
+
+@keyframes fadein {
+    from {
+        color: #ccc;
+    }
+  
+    to {
+        color: #fff;
+    }
+  }
+
+  @keyframes fadein-btn {
+    from {
+        color: #ccc;
+        opacity: 0.9;
+    }
+  
+    to {
+        color: #fff;
+        opacity: 1;
+    }
+  }

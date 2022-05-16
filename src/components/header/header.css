@@ -1,0 +1,61 @@
+.header {
+    background: var(--background);
+    height: 10vh;
+    opacity: 0.9;
+    z-index: 5;
+
+    display: flex;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+}
+
+.header-logo {
+    flex: 1;
+    /* border: 1px solid #fff; */
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo_text {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-nav {
+    flex: 4;
+    /* border: 1px solid #fff; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-nav_link {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.header-nav_link:hover {
+    color: #fff;
+
+    animation-duration: 0.5s;
+    animation-name: fadein;
+}
+
+@keyframes fadein {
+    from {
+        color: #ccc;
+    }
+  
+    to {
+        color: #fff;
+    }
+  }
