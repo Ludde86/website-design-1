@@ -15,8 +15,8 @@ const Home = () => {
 
 				<div className="home_main-subtitle">
 					<h3>
-						Qlosr Group AB (publ) är en helhetsleverantör av IT-lösningar vilket omfattar försäljning och
-						leverans av paketerade prenumerationstjänster.
+						Företaget Group AB (publ) är en helhetsleverantör av IT-lösningar vilket omfattar försäljning
+						och leverans av paketerade prenumerationstjänster.
 					</h3>
 				</div>
 
@@ -36,7 +36,7 @@ const Home = () => {
 			<div className="home_sub">
 				<div className="home_sub-section">
 					<div className="home_sub-section__text-section">
-						<h1>Qlosr to Business</h1>
+						<h1>Företaget to Business</h1>
 
 						<p>
 							Målgruppen är små- och medelstora företag utan egen IT-avdelning eller med behov av IT-stöd.
@@ -46,21 +46,21 @@ const Home = () => {
 						</p>
 
 						<p>
-							Syftet med paketeringen är att erbjuda en helhetstjänst där Qlosr Group kan ta fullt ansvar
-							och erbjuda fasta priser, flexibilitet och en hög servicenivå. Mängden kunder genererar en
-							stabil återkommande intäkt där möjligheten till god marginal är stor.
+							Syftet med paketeringen är att erbjuda en helhetstjänst där Företaget Group kan ta fullt
+							ansvar och erbjuda fasta priser, flexibilitet och en hög servicenivå. Mängden kunder
+							genererar en stabil återkommande intäkt där möjligheten till god marginal är stor.
 						</p>
 					</div>
 
 					<div className="home_sub-section__btn">
-						<text>Läs mer på qlosr.se</text>
+						<text>Läs mer på Företaget.se</text>
 						<BiChevronRight color="#002663" size={20} />
 					</div>
 				</div>
 
 				<div className="home_sub-section">
 					<div className="home_sub-section__text-section">
-						<h1>Qlosr to Education</h1>
+						<h1>Företaget to Education</h1>
 						<p>
 							Målgruppen är större privata nationella skolkoncerner utan egen IT-avdelning eller med behov
 							av IT-stöd.
@@ -75,17 +75,17 @@ const Home = () => {
 					</div>
 
 					<div className="home_sub-section__btn">
-						<text>Läs mer på qlosr.se</text>
+						<text>Läs mer på Företaget.se</text>
 						<BiChevronRight color="#002663" size={20} />
 					</div>
 				</div>
 
 				<div className="home_sub-section">
 					<div className="home_sub-section__text-section">
-						<h1>Qlosr to Public</h1>
+						<h1>Företaget to Public</h1>
 						<p>
 							Målgruppen är offentlig sektor som lyder under LOU – Lagen om offentlig upphandling där
-							efterfrågande tjänster matchar Qloser Groups prenumerationstjänster eller strategiska
+							efterfrågande tjänster matchar Företaget Groups prenumerationstjänster eller strategiska
 							affärsområden.
 						</p>
 						<p>
@@ -95,7 +95,7 @@ const Home = () => {
 					</div>
 
 					<div className="home_sub-section__btn">
-						<text>Läs mer på qlosr.se</text>
+						<text>Läs mer på Företaget.se</text>
 						<BiChevronRight color="#002663" size={20} />
 					</div>
 				</div>

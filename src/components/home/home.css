@@ -118,6 +118,7 @@
     min-height: 250px;
 
     margin-top: 4rem;
+    padding: 0 1rem;
 
     background: hsl(217,100%,98%);
     /* border-radius: 4px; */
@@ -127,7 +128,7 @@
     cursor: pointer;
     background: hsl(217,100%,92%);
 
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-name: fadein-color;
 }
 
@@ -152,12 +153,17 @@
 }
 
 .home_sub-section__text-section h1 {
-    margin: 1rem
+    margin: 1rem;
+    font-weight: 900;
+    letter-spacing: -1px;
 }
 
 .home_sub-section__text-section p {
     margin: 0 1rem 1rem 1rem;
     font-weight: 500;
+    letter-spacing: -0.2px;
+    font-weight: 700;
+    line-height: 18px;
 }
 
 .home_sub-section__btn {

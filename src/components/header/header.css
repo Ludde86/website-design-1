@@ -59,3 +59,37 @@
         color: #fff;
     }
   }
+
+  .sub-nav {
+	background: var(--background);
+	/* background: #333; */
+	opacity: 0.9;
+	position: fixed;
+	top: 10vh;
+	left: 0;
+	width: 100%;
+	height: 5vhrem;
+	z-index: 4;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	animation-name: onload;
+	animation-duration: 0.5s;
+	/* animation-iteration-count: 1; */
+	animation-timing-function: ease-in 2s;
+}
+
+.sub-nav:hover {
+	cursor: pointer;
+}
+
+@keyframes onload {
+	0% {
+		height: 0;
+	}
+	100% {
+		height: 5vh;
+	}
+}
